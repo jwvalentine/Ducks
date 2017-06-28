@@ -33,7 +33,7 @@ namespace Ducks
     class Rubber : Duck
     {
         // Custom attributes for a Rubber duck
-        string madeOf { get; set; }
+        public string madeOf { get; set; }
         public string name;
         public string color { get; set; }
     }
@@ -56,7 +56,6 @@ namespace Ducks
             {
                 deadDuck.eyes = 1;
             }
-
 
             
             // Instantiate a new Wooden Duck   
@@ -87,7 +86,29 @@ namespace Ducks
             // You cant instantiate the class Duck because it is an abstract class.
             Duck newDuck = new Duck();
 
-            
+            // Add one of each of the ducks to a List
+            var ducks = new List<Duck>();
+            ducks.Add(rubberDucky);
+            ducks.Add(woodDuck);
+            ducks.Add(liveDuck);
+            ducks.Add(deadDuck);
+
+            // Iterate through the list
+            foreach (var d in ducks)
+            {
+                bool DoesFloat;
+                if (d.floats == true)
+                {
+                    DoesFloat = true;
+                    Console.WriteLine("This Duck Floats!");
+                    Console.ReadLine();
+                }
+                Console.WriteLine("This Duck sinks!");
+                Console.ReadLine();
+            }
+
+
+
             // What about the eyes? How would you implement giving the ducks eyes?
         }
     }

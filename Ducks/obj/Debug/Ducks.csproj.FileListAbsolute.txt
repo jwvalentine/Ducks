@@ -7,3 +7,6 @@ c:\users\joe\documents\visual studio 2015\Projects\Ducks\Ducks\obj\Debug\Ducks.p
 C:\Users\Joe\Documents\Visual Studio 2015\Projects\Ducks\Ducks\Ducks\bin\Debug\Ducks.exe.config
 C:\Users\Joe\Documents\Visual Studio 2015\Projects\Ducks\Ducks\Ducks\obj\Debug\Ducks.exe
 C:\Users\Joe\Documents\Visual Studio 2015\Projects\Ducks\Ducks\Ducks\obj\Debug\Ducks.pdb
+C:\Users\Joe\Documents\Visual Studio 2015\Projects\Ducks\Ducks\Ducks\bin\Debug\Ducks.exe
+C:\Users\Joe\Documents\Visual Studio 2015\Projects\Ducks\Ducks\Ducks\bin\Debug\Ducks.pdb
+C:\Users\Joe\Documents\Visual Studio 2015\Projects\Ducks\Ducks\Ducks\obj\Debug\Ducks.csprojResolveAssemblyReference.cache
